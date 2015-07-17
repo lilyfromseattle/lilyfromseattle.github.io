@@ -14,6 +14,17 @@ body {
   font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+section#contact #contact-me {
+  /*color: #FF0080;*/
+  background: white;
+  color: black;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: -35px;
+  margin-bottom: 30px;
+  padding :5px;
+}
+
 #art-design-code {
   font-size: 40px;
   display: inline-block;
