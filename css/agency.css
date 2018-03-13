@@ -26,12 +26,15 @@ section#contact #contact-me {
 }
 
 #lily-in-sea {
-  text-align: center;
+  text-align: left;
   font-size: 35px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: black;
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 #art-design-code {
-  text-align: center;
+  text-align: left;
   font-size: 30px;
   display: block;
   padding: 5px;
@@ -41,31 +44,34 @@ section#contact #contact-me {
   /*background-color: rgba(255, 255, 255, 0.6);*/
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial;
   text-transform: uppercase;
-  /*float: right;*/
   font-weight: bold;
   padding-left: 20px;
-  /*color: #f44248;*/
-
 }
 
-@media(max-width:767px) {
-
-}
-@media(min-width:768px) {
-  #lily-in-sea {
-    text-align: left;
-    display: inline-block;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: black;
-  }
-
+@media (max-width:767px) {
   #art-design-code {
-    text-align: left;
-    background-color: white;
+    text-align: center;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
   }
 
+  #lily-in-sea {
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    display: block;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-shadow: 4px 4px black;
+  }
+
+
+  header .intro-text {
+      padding-top: 220px;
+      padding-bottom: 0px;
+  }
 }
+
 
 
 #header-button {
@@ -378,10 +384,10 @@ header {
     -o-background-size: cover;
 }
 
-header .intro-text {
+/*header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
-}
+}*/
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;

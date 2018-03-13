@@ -1,0 +1,36 @@
+/*
+
+#lily-in-sea {
+  text-align: left;
+  font-size: 35px;
+  background-color: black;
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#art-design-code {
+  text-align: left;
+  font-size: 30px;
+  display: block;
+  padding: 5px;
+  color: black;
+  background-color: white;
+  font-size: 20px;
+
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+@media (max-width:767px) {
+  #art-design-code {
+    text-align: center;
+  }
+
+  #lily-in-sea {
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    display: block;
+  }
+}*/
