@@ -1,24 +1,22 @@
-header {
-    /*text-align: center;*/
-    color: #fff;
-    background-attachment: scroll;
-    background-image: url(../img/nyme1.jpg);
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+/*header {
+  color: #fff;
+  background-attachment: scroll;
+  background-image: url(../img/nyme1.jpg);
+  background-position: center center;
+  background-repeat: none;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 header .intro-text {
-    padding-top: 200px;
-    padding-bottom: 50px;
+  padding-top: 200px;
+  padding-bottom: 50px;
 }
 
 
 section#contact #contact-me {
-  /*color: #f44248;*/
   background: white;
   color: black;
   width: 350px;
@@ -41,13 +39,10 @@ section#contact #contact-me {
   color: black;
   background-color: white;
   font-size: 20px;
-  /*background-color: rgba(255, 255, 255, 0.6);*/
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial;
   text-transform: uppercase;
-  /*float: right;*/
   font-weight: bold;
   padding-left: 20px;
-  /*color: #f44248;*/
   @media(max-width:767px) {
 
   }
@@ -70,4 +65,4 @@ section#contact #contact-me {
     background-color: white;
   }
 
-}
+}*/
