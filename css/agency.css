@@ -52,6 +52,24 @@ section#contact #contact-me {
   color: #f44248;
 }
 
+#contact h2 {
+  margin-bottom: 50px;
+}
+
+#contact ul.social-buttons li a {
+  width: 80px;
+  height: 80px;
+  font-size: 40px;
+  line-height: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#learn-more {
+  font-size: 30px;
+  text-align: center;
+}
+
 .resume-date {
   text-align: right;
   color: #f44248;
@@ -82,6 +100,14 @@ section#contact #contact-me {
 
 .resume-entry.education-entry .row {
   border-bottom: 1px solid black;
+}
+
+.devicons {
+  margin-top: 40px;
+}
+.devicons i {
+  font-size: 10rem;
+  margin: 30px 10px 30px 10px;
 }
 
 
@@ -809,7 +835,7 @@ aside.clients img {
     margin: 50px auto;
 }
 
-section#contact {
+/*section#contact {
     background-color: #222;
     background-image: url(../img/background4.png);
     background-size: 100%;
@@ -873,7 +899,7 @@ section#contact:-ms-input-placeholder {
 
 section#contact .text-danger {
     color: #e74c3c;
-}
+}*/
 
 footer {
     padding: 25px 0;
