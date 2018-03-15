@@ -48,6 +48,10 @@ section#contact #contact-me {
   padding-left: 20px;
 }
 
+#nyc {
+  color: #f44248;
+}
+
 .resume-date {
   text-align: right;
   color: #f44248;
@@ -97,6 +101,10 @@ section#contact #contact-me {
     padding-bottom: 10px;
     padding-top: 10px;
     text-shadow: 4px 4px black;
+  }
+
+  #nyc {
+    display: block;
   }
 
   .resume-date, .resume-title, .resume-company, .resume-description {
